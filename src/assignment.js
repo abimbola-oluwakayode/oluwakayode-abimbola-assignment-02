@@ -17,10 +17,10 @@ function sumOfNumbers(arrayOfNumbers) {
   let sum = 0;
 for (let index = 0; index < arrayOfNumbers.length; index++) {
   sum = sum + arrayOfNumbers[index];
-} return sum
+} return sum 
 }
 
-sumOfNumbers ([5,7,6,7,7,7,7,8])
+sumOfNumbers ([1,6,9,3,7,5,8,4,1])
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
